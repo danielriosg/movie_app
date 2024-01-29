@@ -4,12 +4,17 @@ import "./App.css";
 import SearchIcon from "./search.svg";
 const API_URL = "http://omdbapi.com?apikey=a87e2211";
 
+
 const movie1 = {
-  Title: "Amazing Spiderman Syndrome",
-  Year: "2012",
-  imdbID: "tt2586634",
-  Type: "movie",
-  Poster: "N/A",
+  
+    
+   
+    "Title": "Amazing Spiderman Syndrome",
+    "Year": "2012",
+    "imdbID": "tt2586634",
+    "Type": "movie",
+    "Poster": "N/A"
+
 };
 const App = () => {
   const searchMovies = async (title) => {
